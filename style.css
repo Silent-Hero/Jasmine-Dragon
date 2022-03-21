@@ -142,14 +142,3 @@ header ul li a {
   display: inline-block;
   margin: 5px 0;
 }
-
-/* Take this out after dne with the video  */
-/* .circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #017143;
-  clip-path: circle(600px at right 800px);
-} */
