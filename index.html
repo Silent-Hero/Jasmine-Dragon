@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>LandingPage | Jasmine-Dragon</title>
+  </head>
+  <body>
+    <section>
+        <!-- <div class="circle"></div> -->
+        <header>
+            <a href="#"><img src="assets/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="text-box">
+                <h2>Make Tea <br>  Not War </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                    officia deserunt mollit anim id est laborum.
+                </p>
+                <a href="#"> Learn More </a>
+            </div>
+            <div class="img-box">
+                <img src="assets/tea-1.jpg" alt="tea herbs" class="tea1">
+            </div>
+         </div>
+
+         <ul class="thumb-nail">
+             <li><img src="assets/alison-marras-vtntD9h1xBw-unsplash.jpg" onclick="imgSlider('assets/tea-1.jpg')"></li>
+             <li><img src="assets/nathan-dumlao-8yBQQqH3q8Q-unsplash.jpg" onclick="imgSlider('assets/tea-2.jpg')"></li>   
+             <li><img src="assets/teacora-rooibos-FnTWsBohkdo-unsplash.jpg" onclick="imgSlider('assets/tea-3.jpg')"></li>
+         </ul>
+
+         <ul class="social-icons">
+             <li><a href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a></li>
+             <li><a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a></li>
+             <li><a href="#"><img src="https://img.icons8.com/stickers/48/000000/tiktok.png"/></a></li>
+         </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(photo) {
+            document.querySelector('.tea1').src = photo; 
+        }
+    </script>
+  </body>
+</html>
